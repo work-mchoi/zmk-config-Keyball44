@@ -60,7 +60,7 @@
         combo_left {
             bindings = <&kp LEFT>;
             key-positions = <12 18>;
-        }:
+        };
         
     };
 
