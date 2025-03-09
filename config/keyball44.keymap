@@ -57,9 +57,19 @@
             key-positions = <0 1>;
         };
 
-        combo_left {
-            bindings = <&kp LEFT>;
-            key-positions = <12 18>;
+        combo_MB1 {
+            bindings = <&mkp MB1>;
+            key-positions = <19 20>;
+        };
+
+        combo_MB2 {
+            bindings = <&mkp MB2>;
+            key-positions = <20 21>;
+        };
+
+        combo_scroll {
+            bindings = <&mo 5>;
+            key-positions = <19 21>;
         };
         
     };
@@ -111,9 +121,9 @@
             label = "MOUSE";
             bindings = <
 &trans   &trans          &trans          &trans        &trans     &trans              &trans         &trans     &trans      &trans     &trans     &trans
-&trans   &trans          &trans          &trans        &trans     &trans              &trans         &mkp LCLK  &mkp RCLK   &mo 5      &none      &trans
-&trans   &trans          &trans          &trans        &trans     &trans              &trans         &none      &none       &none      &none      &trans
-&trans   &trans          &trans          &trans        &trans                         &trans         &trans                            &none
+&trans   &trans          &trans          &trans        &trans     &trans              &trans         &trans     &trans      &trans     &trans     &trans
+&trans   &trans          &trans          &trans        &trans     &trans              &trans         &trans     &trans      &trans     &trans     &trans
+&trans   &trans          &trans          &trans        &trans                         &trans         &trans                            &trans
             >;
         };
 
