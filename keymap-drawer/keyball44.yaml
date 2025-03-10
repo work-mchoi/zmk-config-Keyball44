@@ -48,8 +48,8 @@ layers:
   NUM:
   - {t: '`', s: '~'}
   - {t: '$$mdi:keyboard-return$$', type: enter}
-  - $$mdi:arrow-up-bold$$
   - {t: '$$mdi:minus-circle-outline$$', type: none}
+  - $$mdi:arrow-up-bold$$
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - '7'
@@ -59,10 +59,10 @@ layers:
   - {t: '-', s: _}
   - {t: '=', s: +}
   - $$mdi:apple-keyboard-control$$
+  - {t: '$$mdi:minus-circle-outline$$', type: none}
   - $$mdi:arrow-left-bold$$
   - $$mdi:arrow-down-bold$$
   - $$mdi:arrow-right-bold$$
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - '4'
   - '5'
