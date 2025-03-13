@@ -1,4 +1,4 @@
-#define DEFAULT 0
+ #define DEFAULT 0
 #define NUM     1
 #define SYM     2
 #define FUN     3
@@ -90,10 +90,10 @@
         number_layer {
             label = "NUM";
             bindings = <
-&kp GRAVE        &kp ENTER     &none         &kp UP_ARROW  &none         &bt BT_SEL 0              &kp NUMBER_7  &kp NUMBER_8  &kp NUMBER_9  &kp NUMBER_0      &kp MINUS          &kp EQUAL
-&kp LCTRL        &kp LCTRL     &kp LEFT      &kp DOWN      &kp RIGHT     &bt BT_SEL 1              &kp NUMBER_4  &kp NUMBER_5  &kp NUMBER_6  &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &kp SINGLE_QUOTE
-&kp LEFT_SHIFT   &none         &none         &none         &none         &bt BT_SEL 2              &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp DOT           &kp SLASH          &kp RIGHT_SHIFT
-&kp LALT         &kp LGUI                    &kp LALT      &none         &none                     &trans        &trans                      &trans
+&kp GRAVE        &kp ENTER      &trans         &kp UP_ARROW  &trans         &bt BT_SEL 0              &kp NUMBER_7  &kp NUMBER_8  &kp NUMBER_9  &kp NUMBER_0      &kp MINUS          &kp EQUAL
+&kp LCTRL        &trans         &kp LEFT       &kp DOWN      &kp RIGHT      &bt BT_SEL 1              &kp NUMBER_4  &kp NUMBER_5  &kp NUMBER_6  &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &kp SINGLE_QUOTE
+&kp LEFT_SHIFT   &trans         &trans         &trans        &trans         &bt BT_SEL 2              &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp DOT           &kp SLASH          &kp RIGHT_SHIFT
+&kp LALT         &kp LGUI                      &kp LALT      &trans         &kp BACKSLASH             &trans        &trans                      &trans
             >;
         };
 
