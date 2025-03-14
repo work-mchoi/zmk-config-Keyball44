@@ -75,7 +75,7 @@
         combo_symlayer {
             bindings = <&tog 2>
             key-positions = <30 31>;
-        }
+        };
         
     };
 
