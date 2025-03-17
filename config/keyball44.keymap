@@ -76,6 +76,16 @@
             bindings = <&tog 2>;
             key-positions = <30 31>;
         };
+
+        combo_delete {
+            bindings = <&kp DELETE>;
+            key-positions = <10 11>;
+        };
+
+        combo_backslash {
+            bindings = <&kp BACKSLASH>;
+            key-positions = <22 23>;
+        };
         
     };
 
