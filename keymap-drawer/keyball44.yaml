@@ -326,3 +326,7 @@ combos:
   k: SCROLL
 - p: [30, 31]
   k: {t: SYM, h: toggle}
+- p: [10, 11]
+  k: $$mdi:backspace-reverse-outline$$
+- p: [22, 23]
+  k: {h: \, s: '|'}
